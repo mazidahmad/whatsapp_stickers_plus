@@ -3,10 +3,11 @@
 
     <application 
         android:name="io.flutter.app.FlutterApplication" 
-        tools:ignore="GoogleAppIndexingWarning" 
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:node="replace" 
+         tools:replace="android:name"
         android:allowBackup="false" 
-        android:fullBackupContent="false"
-        tools:replace="android:name">
+        android:fullBackupContent="false">
 
         <provider 
             android:name=".StickerContentProvider" 
